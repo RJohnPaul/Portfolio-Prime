@@ -11,8 +11,8 @@ export default function Document(): JSX.Element {
 				className={clsx(
 					'antialiased',
 					'bg-gradient-to-br from-white via-gray-100 to-white dark:from-black from-20% dark:via-gray-700 dark:to-black to-80%',
-					'font-inter text-gray-500',
-					'selection:bg-gray-900 selection:dark:bg-white selection:text-white selection:dark:text-primary-500',
+					'font-inter text-gray-600',
+					'selection:bg-gray-900 selection:dark:bg-white selection:text-white selection:dark:text-red-500',
 				)}>
 				<Main />
 				<NextScript />

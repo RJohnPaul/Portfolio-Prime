@@ -14,12 +14,12 @@ export function Error({ routeBlog = true }: ErrorProps): JSX.Element {
 				<div className="flex-grow flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex-shrink-0 flex justify-center">
 						<Icon
-							className="h-12 text-primary-500 w-auto"
+							className="h-12 text-red-500 w-auto"
 							icon="feather:alert-circle"
 						/>
 					</div>
 					<div className="py-4 text-center">
-						<h1 className="mt-2 text-4xl font-extrabold text-gray-500 dark:text-white tracking-tight sm:text-5xl">
+						<h1 className="mt-2 text-4xl font-extrabold text-gray-600 dark:text-white tracking-tight sm:text-5xl">
 							No Posts Found
 						</h1>
 						<p className="mt-4 text-sm font-medium text-gray-300 dark:text-gray-400">

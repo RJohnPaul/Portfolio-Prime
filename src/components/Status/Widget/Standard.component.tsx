@@ -102,7 +102,7 @@ export function Widget(): JSX.Element {
 					<Fragment key={index}>
 						<div className="inline-flex items-center">
 							{'icon' in activity.avatar ? (
-								<div className="max-w-md max-h-12 my-auto rounded pointer-events-none select-none ring-2 ring-gray-200 dark:ring-gray-500">
+								<div className="max-w-md max-h-12 my-auto rounded pointer-events-none select-none ring-2 ring-gray-200 dark:ring-gray-600">
 									<Icon
 										className="w-12 h-12 p-1 text-gray-200 dark:text-gray-400"
 										icon="lucide:gamepad-2"
@@ -114,7 +114,7 @@ export function Widget(): JSX.Element {
 									href={activity.avatar.href}
 									target="_blank"
 									rel="noreferrer noopener">
-									<div className="max-w-md max-h-12 my-auto rounded pointer-events-none select-none ring-2 ring-gray-200 dark:ring-gray-500">
+									<div className="max-w-md max-h-12 my-auto rounded pointer-events-none select-none ring-2 ring-gray-200 dark:ring-gray-600">
 										<Image
 											alt={activity.avatar.alt}
 											className="w-full max-h-12 rounded"
@@ -125,7 +125,7 @@ export function Widget(): JSX.Element {
 									</div>
 								</a>
 							) : (
-								<div className="max-w-md max-h-12 my-auto rounded pointer-events-none select-none ring-2 ring-gray-200 dark:ring-gray-500">
+								<div className="max-w-md max-h-12 my-auto rounded pointer-events-none select-none ring-2 ring-gray-200 dark:ring-gray-600">
 									<Image
 										alt={activity.avatar.alt}
 										className="w-full max-h-12 rounded"
@@ -139,7 +139,7 @@ export function Widget(): JSX.Element {
 							<div className="flex-1 ml-4">
 								{'icon' in activity.avatar && activity.avatar.icon ? (
 									<>
-										<p className="mt-0 mb-1 text-xs tracking-wide font-medium text-gray-500 dark:text-gray-400">
+										<p className="mt-0 mb-1 text-xs tracking-wide font-medium text-gray-600 dark:text-gray-400">
 											Playing
 										</p>
 										<h1 className="text-base font-extrabold line-clamp-1 tracking-wide overflow-ellipsis text-gray-900 dark:text-white">
@@ -154,7 +154,7 @@ export function Widget(): JSX.Element {
 										{activity.description.map(
 											(description, descriptionIndex) => (
 												<p
-													className="mt-1 text-xs tracking-wide font-medium text-gray-500 dark:text-gray-400"
+													className="mt-1 text-xs tracking-wide font-medium text-gray-600 dark:text-gray-400"
 													key={descriptionIndex}>
 													{description}
 												</p>
@@ -166,7 +166,7 @@ export function Widget(): JSX.Element {
 										<h1 className="text-base font-extrabold line-clamp-1 tracking-wide overflow-ellipsis text-gray-900 dark:text-white">
 											{activity.title}
 										</h1>
-										<p className="mt-1 text-xs tracking-wide font-medium text-gray-500 dark:text-gray-400">
+										<p className="mt-1 text-xs tracking-wide font-medium text-gray-600 dark:text-gray-400">
 											{activity.description}
 										</p>
 									</>

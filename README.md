@@ -51,4 +51,4 @@ yarn build
 
 ## 📄 License
 
-MIT © [Ben Dixon](https://github.com/johndev/john.dev/blob/main/LICENSE)
+

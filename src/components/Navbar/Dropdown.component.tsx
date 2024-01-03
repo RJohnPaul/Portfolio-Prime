@@ -92,7 +92,7 @@ export function Dropdown({ children, items, position = 'top-left' }: StandardPro
 						show={open}>
 						<Menu.Items
 							className={clsx(
-								'absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-md shadow-lg divide-y divide-gray-100 dark:divide-gray-500 focus:outline-none',
+								'absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-600 rounded-md shadow-lg divide-y divide-gray-100 dark:divide-gray-600 focus:outline-none',
 								position === 'top-left' && 'origin-top-left left-0',
 								position === 'top-right' && 'origin-top-right right-0',
 							)}>
@@ -125,7 +125,7 @@ export function Dropdown({ children, items, position = 'top-left' }: StandardPro
 														);
 													case NavigationItemType.DIVIDER:
 														return (
-															<hr className="mt-2 pb-2 border-gray-100 dark:border-gray-500" />
+															<hr className="mt-2 pb-2 border-gray-100 dark:border-gray-600" />
 														);
 													case NavigationItemType.LINK:
 														const external = item.external ?? false;

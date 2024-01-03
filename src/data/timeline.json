@@ -1,76 +1,98 @@
 [
 	{
-		"date": "03-14-2022",
-		"title": "Started @ Wander",
-		"description": "Joined the Wander team",
-		"icon": "feather:briefcase",
+		"date": "02-01-2024",
+		"title": "Lauched Primary Portfolio",
+		"description": "Successfully selected as a Technical Intern at Cherry+ and worked on several Components for Cherry+ Dashboard",
+		"icon": "feather:award",
 		"link": {
-			"text": "Visit Wander",
-			"url": "https://wander.com/"
+			"text": "Visit Home",
+			"url": "https://iamjohnpaulr.vercel.app/"
 		}
 	},
 	{
-		"date": "10-22-2021",
-		"title": "Launched nuro.dev",
-		"description": "Successfully launched my newly re-designed portfolio",
-		"icon": "feather:award"
-	},
-	{
-		"date": "03-15-2021",
-		"title": "Started @ Attio",
-		"description": "Joined the Attio team",
-		"icon": "feather:briefcase",
+		"date": "07-08-2023- Present",
+		"title": "Technical Intern @ Cherry+",
+		"description": "Successfully selected as a Technical Intern at Cherry+ and worked on several Components for Cherry+ Dashboard",
+		"icon": "feather:award",
 		"link": {
-			"text": "Visit Attio",
-			"url": "https://attio.com/"
+			"text": "Visit Cherry Network",
+			"url": "https://cherrynetwork.in/"
 		}
 	},
 	{
-		"date": "11-16-2020",
-		"title": "Started @ Aiming.pro",
-		"description": "Joined the Aiming.pro team",
-		"icon": "feather:briefcase",
+		"date": "05-05-2023",
+		"title": "Landing page @ Tendertulip",
+		"description": "Successfully launched and Designed the landing page for Tendertulip with Firebase Auth. It is also launched on Vercel",
+		"icon": "feather:award",
 		"link": {
-			"text": "Visit Aiming.pro",
-			"url": "https://aiming.pro/"
+			"text": "Visit Tendertulip",
+			"url": "https://tulips.technology/"
+		}
+	},
+
+	{
+		"date": "03-01-2023",
+		"title": "Launched First Portfolio",
+		"description": "Successfully launched my newly designed 3d Portfolio it utilizes the power of Framer Motion and Three.js to create an immersive 3D experience for showcasing portfolio projects. . It is also launched on Vercel",
+		"icon": "feather:code",
+		"link": {
+			"text": "Visit 3d-Portfolio",
+			"url": "https://john-paul.vercel.app/"
 		}
 	},
 	{
-		"date": "07-15-2020",
-		"title": "Graduated University!",
-		"description": "Successfully completed my Bachelor's Degree",
-		"icon": "feather:award"
-	},
-	{
-		"date": "10-11-2018",
-		"title": "First Developer Role",
-		"description": "Began an internship as a junior developer working at Stink Studios",
-		"icon": "feather:briefcase",
+		"date": "02-15-2023",
+		"title": "Launched XtractAI",
+		"description": "Successfully launched my newly designed website XtractAI. It is a Article Summarizer and Text Generator using API's. It is also launched on Vercel",
+		"icon": "feather:code",
 		"link": {
-			"text": "Visit Stink Studios",
-			"url": "https://stinkstudios.com/"
+			"text": "Visit XtractAI",
+			"url": "https://xtractai.netlify.app/"
 		}
 	},
 	{
-		"date": "11-04-2016",
-		"title": "First Job!",
-		"description": "Began my first part-time job as a junior service desk analyist at CreeperHost",
-		"icon": "feather:briefcase",
+		"date": "10-22-2022",
+		"title": "Modern Front-end Development",
+		"description": "Successfully Learnt Front-End Frameworks like ReactJS,ViteJS and NextJS and Styling Languages like SASS and TailwindCSS and improved my figma designing",
+		"icon": "feather:code"
+	},
+	{
+		"date": "10-02-2022",
+		"title": "Design",
+		"description": "Successfully Delved into Designing using Figma and other tools like Canva. And Created Several Designs for my projects",
+		"icon": "feather:feather"
+	},
+
+	{
+		"date": "10-05-2021",
+		"title": "Classic Front-end Development",
+		"description": "Developed Pure HTML/CSS components using FreeCodeCamp , Codepen and other resources",
+		"icon": "feather:code",
 		"link": {
-			"text": "Visit CreeperHost",
-			"url": "http://creeperhost.net/"
+			"text": "Visit FreeCodeCamp",
+			"url": "https://www.freecodecamp.org/"
 		}
 	},
 	{
-		"date": "09-10-2016",
-		"title": "Start University",
-		"description": "Began studying Computer Games Programming at Staffordshire University",
-		"icon": "feather:book"
+		"date": "11-04-2019",
+		"title": "Got into Video Editing!",
+		"description": "Began my first intrest as a video editor using Flimora, I still do it to this day!.This also led me to explore computers more",
+		"icon": "fe:code",
+		"link": {
+			"text": "Visit Flimora",
+			"url": "https://filmora.wondershare.com/"
+		}
 	},
 	{
-		"date": "08-09-1997",
+		"date": "09-10-2018",
+		"title": "Start No Coding Websites",
+		"description": "Began studying and designed a few websites, doing a bit of work with no-code tools eg:wix,wordpress etc",
+		"icon": "feather:code"
+	},
+	{
+		"date": "05-31-2005",
 		"title": "Birthday!",
-		"description": "I was born the 9th of August 1997",
+		"description": "I was born the 31st of May 2005",
 		"icon": "feather:gift"
 	}
 ]
